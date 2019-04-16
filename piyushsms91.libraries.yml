@@ -1,0 +1,20 @@
+global-css:
+  css:
+    theme:
+      css/bootstrap.min.css: {}
+      css/font-awesome.min.css: {}
+      css/font-loto.css: {}
+      css/simple-line-icons.css: {}
+      css/device-mockups.min.css: {}
+      css/new-age.min.css: {}
+
+global-js:
+  js:
+    js/bootstrap.bundle.js: {}
+    js/jquery.easing.min.js: {}
+    js/new-age.js: {}
+    js/blocksit.min.js: {weight: -19}
+    js/call-blocksit.js: {weight: -20}    
+  dependencies:
+    - core/jquery
+    - core/drupalSettings

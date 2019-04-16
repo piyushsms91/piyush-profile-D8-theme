@@ -1,0 +1,22 @@
+name: Piyushsms91
+Discription: Drupal 8 theme.
+type: theme
+core: 8.x
+libraries:
+  - piyushsms91/global-css
+  - piyushsms91/global-js
+stylesheets-remove:
+  - /core/themes/stable/css/views/views.module.css
+
+
+regions:
+  content: 'Main Content'
+  sidebar_second: 'Sidebar Second'
+  banner: 'Banner'
+  header: 'Header'
+  title: 'Title'
+  logo: 'Logo'
+  menu: 'Menu'
+  localmenu: 'Local Menu'
+  footer: 'Footer'
+  copyright: 'Copy right'
